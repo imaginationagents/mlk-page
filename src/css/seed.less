@@ -29,6 +29,18 @@ h3 {
   margin: 20px 0;
 }
 
+.nav {
+  .display-flex();
+
+  .nav-button {
+    .flex(1);
+    background: @df-dark-gray;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+  }
+}
+
 .outer {
   max-width: 1200px;
   margin: auto;
@@ -40,6 +52,13 @@ h3 {
   img {
     float: right;
     margin-left: 20px;
+    max-width: 400px;
+
+    &.left {
+      margin-left: 0;
+      margin-right: 20px;
+      float: left;
+    }
   }
 }
 

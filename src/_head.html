@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+    <div class="outer">
+
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+      <img class="logo" src="./assets/st-logo.png">
+
+      <h1>Martin Luther King Jr.</h1>
+      <h2>And the Civil Rights Movement</h2>
+
+      <div class="inner">

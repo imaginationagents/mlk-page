@@ -12,6 +12,8 @@ if (tabGroup) {
     var now = tabGroup.querySelector(hash);
     if (now) {
       tabs.forEach(el => el.classList.add("hidden"));
+      $(".selected", tabNav).forEach(el => el.classList.remove("selected"));
+      tabNav.querySelector(`[href="${hash}"]`).classList.add("selected");
       now.classList.remove("hidden");
     }
   };

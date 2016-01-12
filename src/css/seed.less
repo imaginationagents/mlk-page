@@ -8,23 +8,17 @@ body {
   // letter-spacing: .03em;
 }
 
-h3 {
-  color: @df-off-white;
-  font-family: @df-serif;
-  font-size: 26px;
-}
-
 .logo {
   height: 30px;
+}
+
+.header img {
+  display: block;
 }
 
 .inner {
   max-width: 1200px;
   margin: auto;
-
-  &.header {
-    margin-bottom: -8px;
-  }
 }
 
 .nav {
@@ -39,10 +33,16 @@ h3 {
 }
 
 .subhead {
-  color: @df-middle-gray;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding: 10px 0;
+}
+.subhead2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 0;
+  // font-weight: bold;
+  color: @df-middle-gray;
 }
 
 .intro, .quote {
@@ -96,19 +96,33 @@ h3 {
 }
 
 .cluster {
-  padding-bottom: 15px;
-  clear: both;
+  padding-right: 40px;
+
+  &:last-child {
+    padding-right: 0;
+  }
 }
 
-.bio img {
-  float: right;
-  margin-left: 20px;
-  max-width: 400px;
+.bio {
+  background: @df-off-white;
+  color: @df-charcoal;
+  padding: 30px;
+
+  img.inline {
+    float: right;
+    margin-left: 20px;
+    max-width: 400px;
+  }
 }
 
 .galleries img {
-  float: left;
-  max-width: 200px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  // float: left;
+  // max-width: 200px;
+  // margin-bottom: 20px;
+  // margin-right: 20px;
+}
+
+.footer .logo {
+  height: 25px;
+  margin: 15px 0 5px 15px;
 }

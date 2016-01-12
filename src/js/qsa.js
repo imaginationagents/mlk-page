@@ -1,0 +1,1 @@
+module.exports = (s, e) => Array.prototype.slice.call((e || document).querySelectorAll(s));

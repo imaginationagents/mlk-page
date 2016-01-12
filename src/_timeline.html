@@ -13,7 +13,12 @@ json.MLK2016_timeline.forEach(function(row) {
     <h2><%= year %></h2>
     <ul class="events">
       <% events.forEach(function(event) { %>
-      <li class="<%= event.category %> event"> <%= event.text %>
+      <li class="<%= event.category %> event">
+        <% if (event.date) { %>
+        <b><%= event.date %>: </b>
+        <% } %>
+        <%= event.text %>
+      </li>
       <% }) %>
     </ul>
   </div>

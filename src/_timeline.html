@@ -1,0 +1,20 @@
+<% 
+var byYear = {};
+json.MLK2016_timeline.forEach(function(row) {
+  if (!byYear[row.year]) {
+    byYear[row.year] = [];
+  }
+  byYear[row.year].push(row);
+});
+%>
+
+<% Object.keys(byYear).sort().forEach(function(year) { var events = byYear[year]; %>
+  <div class="year">
+    <h2><%= year %></h2>
+    <ul class="events">
+      <% events.forEach(function(event) { %>
+      <li class="<%= event.category %> event"> <%= event.text %>
+      <% }) %>
+    </ul>
+  </div>
+<% }) %>

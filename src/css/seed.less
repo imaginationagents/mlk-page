@@ -2,6 +2,8 @@
 @import "flexbox";
 @import "page";
 @import "subnavigation";
+@import "index";
+@import "bio";
 
 body {
   font-family: @df-sans;
@@ -45,34 +47,6 @@ body {
   background: @df-charcoal;
   padding: 30px;
 }
-.triplets, .body {
-  background: @df-off-white;
-  color: @df-charcoal;
-  padding: 30px 0;
-}
-.triplets .inner2 {
-  .display-flex();
-
-  .triplet {
-    .flex(1);
-    padding: 0 15px;
-    font-size: 18px;
-
-    .desc {
-      padding-bottom: 10px;
-      border-bottom: 2px solid @df-border-gray;
-    }
-  }
-}
-.quote {
-  font-size: 22px;
-
-  .attribution {
-    padding-top: 10px;
-    font-size: 16px;
-    color: @df-middle-gray;
-  }
-}
 
 .flex-container {
   .display-flex();
@@ -100,17 +74,15 @@ main {
   color: @df-charcoal;
   padding: 30px;
 
-  .inline-image {
+  aside {
     float: right;
-    margin-left: 20px;
-
-    img {
-      max-width: 400px;
-    }
-  }
-  .caption {
     max-width: 400px;
+    margin-left: 20px;
+  }
+
+  .caption {
     font-style: italic;
+    font-size: 15px;
   }
 }
 

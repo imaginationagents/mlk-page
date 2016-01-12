@@ -51,20 +51,15 @@ img, video, embed, object, iframe {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin: 0;
   color: @df-off-black;
   margin: @df-line-base 0 (@df-line-base/2) 0;
 }
 
 h1 {
   font-size: 28px;
-  line-height: 30 / 28;
-  letter-spacing: -0.5px;
-
-  @media @tablet {
-    font-size: 42px;
-    line-height: 46 / 42;
-    letter-spacing: -1px;
-  }
+  font-weight: bold;
+  padding: 20px 0 10px 0;
 }
 h2 {
   font-size: 24px;

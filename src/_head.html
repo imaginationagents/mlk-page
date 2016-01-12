@@ -11,17 +11,18 @@
     <div class="outer">
 
       <%= t.include("partials/_ad.html", { type: "banner" }) %>
-
-      <img class="logo" src="./assets/st-logo.png">
+      <div class="nav">
+        <div class="nav-button"><a href="http://www.seattletimes.com" target="_blank"><img class="logo" src="./assets/st-logo.png"></a></div>
+        <div class="nav-button"><a href="./index.html">Home</a></div>
+        <div class="nav-button"><a href="./bio.html">His story</a></div>
+        <div class="nav-button">Voices</div>
+        <div class="nav-button">Our archives</div>
+        <div class="nav-button">Education</div>
+      </div>
+      
 
       <img src="./assets/mlk_header.jpg">
 
-      <div class="nav">
-        <div class="nav-button"><a href="./index.html">Home</a></div>
-        <div class="nav-button"><a href="./bio.html">History</a></div>
-        <div class="nav-button">From the archives</div>
-        <div class="nav-button">Now</div>
-        <div class="nav-button">Education</div>
-      </div>
+
 
       <div class="inner">

@@ -43,11 +43,6 @@ body {
   color: @df-middle-gray;
 }
 
-.intro, .quote {
-  background: @df-charcoal;
-  padding: 30px;
-}
-
 .flex-container {
   .display-flex();
 
@@ -58,6 +53,10 @@ body {
   .left, .right {
     .flex(1);
   }
+
+  img {
+    width: 100%;
+  }
 }
 
 .cluster {
@@ -67,6 +66,12 @@ body {
   &:last-child {
     padding-right: 0;
   }
+}
+
+audio {
+  width: 100%;
+  display: block;
+  background-color: black;
 }
 
 main {

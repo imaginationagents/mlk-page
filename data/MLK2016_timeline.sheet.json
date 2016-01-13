@@ -23,14 +23,14 @@
   },
   {
     "year": 1954,
-    "category": "king",
-    "date": "September",
-    "text": "King moves to Montgomery, Ala., to preach at Dexter Avenue Baptist Church."
+    "category": "rights",
+    "text": "Brown vs. Board of Education: U.S. Supreme Court bans segregation in public schools."
   },
   {
     "year": 1954,
-    "category": "rights",
-    "text": "Brown vs. Board of Education: U.S. Supreme Court bans segregation in public schools."
+    "category": "king",
+    "date": "September",
+    "text": "King moves to Montgomery, Ala., to preach at Dexter Avenue Baptist Church."
   },
   {
     "year": 1955,
@@ -139,12 +139,6 @@
   },
   {
     "year": 1963,
-    "category": "king",
-    "date": "Aug. 28",
-    "text": "250,000 civil-rights supporters attended the March on Washington. At the Lincoln Memorial, King delivers the famous \"I have a dream\" speech."
-  },
-  {
-    "year": 1963,
     "category": "rights",
     "text": "Police arrest King and other ministers demonstrating in Birmingham, Ala., then turn fire hoses and police dogs on the marchers."
   },
@@ -166,6 +160,12 @@
   },
   {
     "year": 1963,
+    "category": "king",
+    "date": "Aug. 28",
+    "text": "250,000 civil-rights supporters attended the March on Washington. At the Lincoln Memorial, King delivers the famous \"I have a dream\" speech."
+  },
+  {
+    "year": 1963,
     "category": "rights",
     "text": "250,000 people attend the March on Washington, D.C. urging support for pending civil-rights legislation. The event was highlighted by King's \"I have a dream\" speech."
   },
@@ -179,6 +179,22 @@
     "category": "rights",
     "date": "Sep. 15",
     "text": "Four girls killed in bombing of the Sixteenth Street Baptist Church in Birmingham, Ala."
+  },
+  {
+    "year": 1964,
+    "category": "rights",
+    "text": "Seattle City Council agrees to put together an open-housing ordinance but insists on putting it on the ballot. Voters defeat it by a 2-to-1 ratio. It will be four more years before an open-housing ordinance becomes law."
+  },
+  {
+    "year": 1964,
+    "category": "rights",
+    "text": "Three civil-rights workers are murdered in Mississippi."
+  },
+  {
+    "year": 1964,
+    "category": "rights",
+    "date": "July 2",
+    "text": "President Johnson signs the Civil Rights Act of 1964."
   },
   {
     "year": 1964,
@@ -199,22 +215,6 @@
   {
     "year": 1964,
     "category": "rights",
-    "text": "Seattle City Council agrees to put together an open-housing ordinance but insists on putting it on the ballot. Voters defeat it by a 2-to-1 ratio. It will be four more years before an open-housing ordinance becomes law."
-  },
-  {
-    "year": 1964,
-    "category": "rights",
-    "text": "Three civil-rights workers are murdered in Mississippi."
-  },
-  {
-    "year": 1964,
-    "category": "rights",
-    "date": "July 2",
-    "text": "President Johnson signs the Civil Rights Act of 1964."
-  },
-  {
-    "year": 1964,
-    "category": "rights",
     "text": "Out of 955 people employed by the Seattle Fire Department, just two were African American, and only one was Asian ‹ 0.2 and 0.1 percent of the force, respectively. By the end of 1993, the department was 12.2 percent African American and 5.6 percent Asian."
   },
   {
@@ -231,15 +231,15 @@
   },
   {
     "year": 1965,
-    "category": "king",
-    "date": "Mar. 16-21",
-    "text": "King and 3,200 people march from Selma to Montgomery"
-  },
-  {
-    "year": 1965,
     "category": "rights",
     "date": "Feb. 21",
     "text": "Malcolm X is murdered. Three men are convicted of his murder."
+  },
+  {
+    "year": 1965,
+    "category": "king",
+    "date": "Mar. 16-21",
+    "text": "King and 3,200 people march from Selma to Montgomery"
   },
   {
     "year": 1965,
@@ -257,22 +257,17 @@
     "year": 1968,
     "category": "king",
     "date": "Apr. 4",
-    "text": "King is assassinated in Memphis, Tenn., by James Earl Ray."
-  },
-  {
-    "year": 1968,
-    "category": "rights",
-    "text": "Aaron Dixon becomes first leader of Black Panther Party branch in Seattle."
-  },
-  {
-    "year": 1968,
-    "category": "rights",
-    "text": "The Rev. Martin Luther King Jr. is assassinated in Memphis, Tenn., unleashing violence in more than 100 cities."
+    "text": "King is assassinated in Memphis, Tenn., by James Earl Ray, unleashing violence in more than 100 cities."
   },
   {
     "year": 1968,
     "category": "rights",
     "text": "In response to King's death, Seattle residents hurled firebombs, broke windows, and pelted motorists with rocks. Ten thousand people also marched to Seattle Center for a rally in his memory."
+  },
+  {
+    "year": 1968,
+    "category": "rights",
+    "text": "Aaron Dixon becomes first leader of Black Panther Party branch in Seattle."
   },
   {
     "year": 1968,

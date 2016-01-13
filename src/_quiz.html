@@ -1,0 +1,30 @@
+<%
+var questions = {};
+json.MLK2016_quizQuestions.forEach(function(row) {
+  questions[row.index] = row;
+  row.answers = [];
+});
+json.MLK2016_quizAnswers.forEach(function(row) {
+  questions[row.question].answers.push(row);
+});
+
+%>
+<form class="quiz-questions" autocomplete="off">
+  <% Object.keys(questions).forEach(function(q) { var item = questions[q]; %>
+  <div class="question">
+    <h3><%= q %>. <%= item.question %></h3>
+    <ul class="answers">
+      <% item.answers.forEach(function(option, i) { %>
+      <li>
+        <input id="answer-<%= q %>-<%= i %>" type="radio" name="answer-<%= q %>" value="<%= option.correct %>">
+        <label for="answer-<%= q %>-<%= i %>">
+          <%= option.answer %>
+        </label>
+      </li>
+      <% }) %>
+    </ul>
+    <p class="note"><%= item.note %></p>
+  </div>
+  <% }) %>
+</form>
+<div class="quiz-results"></div>

@@ -1,0 +1,49 @@
+.quiz-questions {
+  padding: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+
+  ul.answers {
+    list-style-type: none;
+    padding: 0 16px;
+    margin: 0;
+  }
+
+  .note {
+    margin-bottom: 20px;
+    display: none;
+
+    &::before {
+      content: "";
+      font-weight: bold;
+    }
+  }
+
+  &.answered {
+    .note {
+      display: block;
+    }
+
+    ul.answers {
+      color: @df-middle-gray;
+
+      input[value="x"] + label {
+        color: @df-dark-gray;
+        font-weight: bold;
+      }
+    }
+
+    &.correct .note::before {
+      content: "Correct! ";
+      color: @st-dark-green;
+    }
+
+    &.incorrect .note::before {
+      content: "Wrong. ";
+      color: @st-dark-red;
+    }
+  }
+
+}

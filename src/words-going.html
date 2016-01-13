@@ -1,0 +1,15 @@
+<%= t.include("_head.html", { title: "Where we are going" }) %>
+
+<header class="header">
+  <img src="./assets/mlk_header_short.jpg">
+</header>
+
+<main class="his-words">
+
+  <article class="inner">
+    <%= markdown.going %>
+  </article>
+
+</main>
+
+<%= t.include("_foot.html") %>

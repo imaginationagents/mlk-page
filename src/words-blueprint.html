@@ -1,0 +1,15 @@
+<%= t.include("_head.html", { title: "What is your life's blueprint?" }) %>
+
+<header class="header">
+  <img src="./assets/mlk_header_short.jpg">
+</header>
+
+<main class="his-words">
+
+  <article class="inner">
+    <%= markdown.blueprint %>
+  </article>
+
+</main>
+
+<%= t.include("_foot.html") %>

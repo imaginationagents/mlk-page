@@ -1,0 +1,15 @@
+<%= t.include("_head.html", { title: "The purpose of education" }) %>
+
+<header class="header">
+  <img src="./assets/mlk_header_short.jpg">
+</header>
+
+<main class="his-words">
+
+  <article class="inner">
+    <%= markdown.education %>
+  </article>
+
+</main>
+
+<%= t.include("_foot.html") %>

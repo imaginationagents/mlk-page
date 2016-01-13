@@ -300,6 +300,12 @@
     "text": "January 20 is the first national celebration of King's birthday as a holiday."
   },
   {
+    "year": 1986,
+    "category": "king",
+    "date": "Feb. 24",
+    "text": "King County Council passes a motion to rename King County in honor of Martin Luther King Jr."
+  },
+  {
     "year": 1989,
     "category": "rights",
     "text": "Douglas Wilder of Virginia becomes the nation's first African American to be elected state governor."
@@ -308,5 +314,27 @@
     "year": 1992,
     "category": "rights",
     "text": "The first racially based riots in years erupt in Los Angeles and other cities after a jury acquits L.A. police officers in the videotaped beating of Rodney King, an African American."
+  },
+  {
+    "year": 2005,
+    "category": "king",
+    "text": "The King County name change is made official when Governor Gregoire signs Senate Bill 5332."
+  },
+  {
+    "year": 2008,
+    "category": "rights",
+    "date": "Nov. 4",
+    "text": "Barack Obama becomes the first African American to be elected president of the United States."
+  },
+  {
+    "year": 2011,
+    "category": "king",
+    "date": "Oct. 16",
+    "text": "The national memorial to Martin Luther King Jr. is dedicated and opened to the public in Washington, D.C."
+  },
+  {
+    "year": 2013,
+    "category": "rights",
+    "text": "Following the death of Trayvon Martin, the Black Lives Matter movement emerges as a new force for civil rights."
   }
 ]

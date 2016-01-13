@@ -20,12 +20,15 @@
 
   .tab-group {
     .display-flex();
+
+    @media @mobile {
+      display: block;
+    }
   }
 
   .tab-navigation {
     .flex(0 0 150px);
     padding-right: 20px;
-
 
     li {
       display: block;
@@ -35,6 +38,10 @@
       &::before {
         content: "";
         margin: 0;
+      }
+
+      @media @mobile {
+        text-align: center;
       }
     }
   }

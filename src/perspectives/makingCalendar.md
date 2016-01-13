@@ -1,10 +1,3 @@
-# Making the calendar
-
-*This is an abridged version of a Seattle Times article that appeared in 1985 — a year before the first celebration of the holiday in King's honor.*
-
-By Paul Andrews
-Seattle Times staff reporter
-
 The Rev. Dr. Martin Luther King Jr., who knew it takes time for attitudes to change, would not have been surprised that nearly two decades were required to make his birthday a legal holiday.
 
 If anything, King, whose magnificent dream always had a pragmatic cast, would have been surprised that it has happened at all.

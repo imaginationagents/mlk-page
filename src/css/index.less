@@ -15,20 +15,21 @@ main.index {
     .justify-content(space-between);
     max-width: 900px;
     margin: auto;
+  }
 
-    .triplet {
-      .flex(0 0 30%);
-      padding: 0 15px;
-      font-size: 18px;
-      border-bottom: 2px solid @df-border-gray;
 
-      img {
-        width: 100%;
-      }
+  .triplet {
+    .flex(0 0 30%);
+    padding: 0 15px;
+    font-size: 18px;
+    border-bottom: 2px solid @df-border-gray;
 
-      .desc {
-        padding-bottom: 10px;
-      }
+    img {
+      width: 100%;
+    }
+
+    .desc {
+      padding-bottom: 10px;
     }
   }
 
@@ -45,5 +46,19 @@ main.index {
       color: @df-middle-gray;
     }
   }
+
+  .body {
+    .double {
+      .flex(2);
+    }
+    .single {
+      .flex(1);
+    }
+
+    .triplet {
+      .flex(1);
+    }
+  }
+
 
 }

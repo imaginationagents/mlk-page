@@ -1,0 +1,51 @@
+.timeline {
+  font-size: 16px;
+
+  .year {
+    .display-flex();
+    padding: 8px 4px 16px;
+    border-top: 1px solid @df-light-gray;
+
+    &:nth-child(2n) {
+      background: darken(@df-off-white, 5%);
+    }
+
+    h2 {
+      .flex(0 0 100px);
+    }
+
+    ul.events {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+  }
+
+  .event {
+    clear: left;
+    @icon-size: 48px;
+
+    &::before {
+      vertical-align: text-top;
+      border-radius: 100%;
+      display: inline-block;
+      float: left;
+      width: @icon-size;
+      height: @icon-size;
+      background: black;
+      content: "";
+      background-size: @icon-size @icon-size;
+      margin-right: 12px;
+      margin-bottom: 12px;
+    }
+
+    &.king::before {
+      background-image: url(assets/king_icon.jpg);
+    }
+
+    &.rights::before {
+      background-image: url(assets/protest_icon.jpg);
+    }
+  }
+
+}

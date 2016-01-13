@@ -1,0 +1,73 @@
+<%= t.include("_head.html", { title: "Our Archives" }) %>
+
+<header class="header">
+  <img src="./assets/mlk_header_short.jpg">
+</header>
+
+<main class="archives">
+
+  <section class="inner">
+
+    <h1>Our Archives</h1>
+
+    <ul class="links">
+      <li>
+        <a href="">Link goes here</a>
+        <span class="description">Description of that link</span>
+    </ul>
+
+  </section>
+
+  <section class="inner tab-group">
+
+    <h1>Perspectives</h1>
+
+    <p>
+      Some knew Martin Luther King Jr. personally, others admired him from afar. All were inspired by him. Here, civil rights activists reflect on King.
+    </p>
+
+    <nav class="tab-navigation">
+      <ul>
+        <li><a href="#johnson">Charles Johnson</a>
+        <li><a href="#gray">Fred Gray</a>
+        <li><a href="#bond">Julian Bond</a>
+        <li><a href="#young">Andrew Young</a>
+        <li><a href="#mckinney">Rev. Samuel B. McKinney</a>
+        <li><a href="#mckinney-turner">Rev. Dale Turner and Rev. Samuel B. McKinney</a>
+        <li><a href="#sanchez">Sonia Sanchez</a>
+      </ul>
+    </nav>
+
+    <article class="tab perspective" id="johnson">
+      <%= markdown.johnson %>
+    </article>
+
+    <article class="tab perspective" id="gray">
+      <%= markdown.gray %>
+    </article>
+
+    <article class="tab perspective" id="bond">
+      <%= markdown.bond %>
+    </article>
+
+    <article class="tab perspective" id="young">
+      <%= markdown.young %>
+    </article>
+
+    <article class="tab perspective" id="mckinney">
+      <%= markdown.mckinney %>
+    </article>
+
+    <article class="tab perspective" id="mckinney-turner">
+      <%= markdown.mckinneyTurner %>
+    </article>
+
+    <article class="tab perspective" id="sanchez">
+      <%= markdown.sanchez %>
+    </article>
+
+  </section>
+
+</main>
+
+<%= t.include("_foot.html") %>

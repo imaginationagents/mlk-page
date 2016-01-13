@@ -18,7 +18,7 @@
 
   </section>
 
-  <section class="inner tab-group">
+  <section class="inner">
 
     <h1>Perspectives</h1>
 
@@ -26,45 +26,103 @@
       Some knew Martin Luther King Jr. personally, others admired him from afar. All were inspired by him. Here, civil rights activists reflect on King.
     </p>
 
-    <nav class="tab-navigation">
-      <ul>
-        <li><a href="#johnson">Charles Johnson</a>
-        <li><a href="#gray">Fred Gray</a>
-        <li><a href="#bond">Julian Bond</a>
-        <li><a href="#young">Andrew Young</a>
-        <li><a href="#mckinney">Rev. Samuel B. McKinney</a>
-        <li><a href="#mckinney-turner">Rev. Dale Turner and Rev. Samuel B. McKinney</a>
-        <li><a href="#sanchez">Sonia Sanchez</a>
-      </ul>
-    </nav>
+    <div class="perspective-container tab-group">
 
-    <article class="tab perspective" id="johnson">
-      <%= markdown.johnson %>
-    </article>
+      <nav class="tab-navigation">
+        <ul>
+          <li><a href="#johnson">Novelist Charles Johnson (1998)</a>
+          <li><a href="#gray">Fred Gray, King's first civil-rights attorney (1996)</a>
+          <li><a href="#bond">Julian Bond, civil-rights activist and teacher (1993)</a>
+          <li><a href="#young">Andrew Young, politician and civil-rights leader (1996)</a>
+          <li><a href="#mckinney">Rev. Samuel B. McKinney (1994)</a>
+          <li><a href="#mckinney-turner">Rev. Dale Turner and Rev. Samuel B. McKinney (1995)</a>
+          <li><a href="#sanchez">Sonia Sanchez, poet and activist (1995)</a>
+        </ul>
+      </nav>
 
-    <article class="tab perspective" id="gray">
-      <%= markdown.gray %>
-    </article>
+      <article class="tab perspective" id="johnson">
 
-    <article class="tab perspective" id="bond">
-      <%= markdown.bond %>
-    </article>
+        <h1>Lessons from fictionalizing King</h1>
 
-    <article class="tab perspective" id="young">
-      <%= markdown.young %>
-    </article>
+        <div class="bio">
+          <p>
+            CHARLES JOHNSON is the Pollock Professor of English at the University of Washington and a winner in 1998 of a prestigious "genius grant" from the MacArthur Foundation. His novel, "Middle Passage," won the National Book Award for 1990 and his short fiction is much anthologized, including on the Internet.
 
-    <article class="tab perspective" id="mckinney">
-      <%= markdown.mckinney %>
-    </article>
+          <p>
+            An accomplished screenwriter, book reviewer, and comic artist, Johnson has wrote a novel called "Dreamer," centering on events in the life of Martin Luther King Jr. Before the novel was published in the spring of 1998, he discussed some of what he learned about King, and what he discovered about himself — and society — in the process.
+        </div>
 
-    <article class="tab perspective" id="mckinney-turner">
-      <%= markdown.mckinneyTurner %>
-    </article>
+        <%= markdown.johnson %>
+      </article>
 
-    <article class="tab perspective" id="sanchez">
-      <%= markdown.sanchez %>
-    </article>
+      <article class="tab perspective" id="gray">
+
+        <h1>His work is far from over: Lawyer spreads message of racial reconciliation</h1>
+
+        <cite class="byline">
+          By Sally Macdonald, Seattle Times religion writer
+        </cite>
+
+        <div class="date">This story originally ran in The Seattle Times Nov. 9, 1996.</div>
+
+        <%= markdown.gray %>
+      </article>
+
+      <article class="tab perspective" id="bond">
+        <h1>Remember the man and the hero, not just half the dream</h1>
+
+        <cite class="byline">
+          By Julian Bond, civil-rights activist and teacher
+        </cite>
+
+        <div class="date">This story originally ran in The Seattle Times, April 4, 1993.</div>
+
+        <%= markdown.bond %>
+      </article>
+
+      <article class="tab perspective" id="young">
+        <h1>Andrew Young reflects on his struggle in the civil-rights movement</h1>
+
+        <cite class="byline">By Mary Elizabeth Cronin, Seattle Times staff reporter</cite>
+
+        <div class="date">This story originally ran in The Seattle Times Nov. 13, 1996.</div>
+        <%= markdown.young %>
+      </article>
+
+      <article class="tab perspective" id="mckinney">
+        <h1>When King came to town</h1>
+
+        <cite class="byline">By Ferdinand de Leon, Seattle Times staff reporter</cite>
+
+        <div class="date">This story originally ran in The Seattle Times Jan. 16, 1994.</div>
+        <%= markdown.mckinney %>
+      </article>
+
+      <article class="tab perspective" id="mckinney-turner">
+        <h1>Then and now: Two pastors talk about the struggle for equality</h1>
+
+        <div class="bio">
+          <p>
+            In 1958, just as the civil rights movement in the South was starting to gain national attention, two pastors moved to Seattle to take over new assignments: the Rev. Samuel McKinney at the predominately black Mt. Zion Baptist Church, and the Rev. Dale Turner at the predominately white University Congregational Church.
+
+          <p>
+            A year or two later, Turner invited McKinney to speak at University Congregational; that visit was followed by a number of informal meetings between the two and a third pastor, John Hurst Adams (who has since left the area), to talk about ways of addressing race relations from the pulpit.
+
+          <p>
+            More than 35 years after they first met, the Revs. Turner and McKinney sat down again in December, 1995, for a conversation with Seattle Times religion reporter Lee Moriwaki.
+
+          <p>
+            They talked about the mood of the times then and now, and about the impact of Martin Luther King Jr. — a classmate of McKinney's at Morehouse College. Below is an edited transcript of the discussion.
+        </div>
+
+        <%= markdown.mckinneyTurner %>
+      </article>
+
+      <article class="tab perspective" id="sanchez">
+        <%= markdown.sanchez %>
+      </article>
+
+    </div>
 
   </section>
 

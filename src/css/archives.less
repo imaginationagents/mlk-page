@@ -1,7 +1,31 @@
+@import "flexbox";
+
 .archives {
+
+  .tab-group {
+    .display-flex();
+  }
+
+  .tab-navigation {
+    .flex(0 0 150px);
+    padding-right: 20px;
+
+
+    li {
+      display: block;
+      line-height: 1.2;
+      font-size: 15px;
+      margin-bottom: 16px;
+      &::before {
+        content: "";
+        margin: 0;
+      }
+    }
+  }
 
   .perspective {
     font-size: 16px;
+    font-family: @df-serif;
     border: 1px solid @df-light-gray;
     padding: 8px 20px;
 
@@ -12,6 +36,21 @@
 
     h2 {
       font-size: 19px;
+    }
+
+    .bio {
+      font-style: italic;
+      font-family: @df-sans;
+      padding: 0 20px 20px;
+    }
+
+    .byline {
+      font-family: @df-sans;
+    }
+
+    .date {
+      font-family: @df-sans;
+      font-style: italic;
     }
   }
 }

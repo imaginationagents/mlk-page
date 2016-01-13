@@ -1,8 +1,3 @@
-# His work is far from over: Lawyer spreads message of racial reconciliation
-
-By Sally Macdonald
-Seattle Times religion writer
-
 When Rosa Parks needed a lawyer to tell an Alabama judge why she should be able to sit wherever she wanted on a city bus, Fred Gray was there.
 
 He was there, too, when Parks' friends, meeting in someone's living room later that evening, chose the new preacher in town, Martin Luther King Jr., to lead them to the next level of freedom.
@@ -56,5 +51,3 @@ In 1974, Gray's church in Tuskegee, Ala., merged with an all-white church, becom
 It is that latter experience Jones hopes Gray will bring to his congregation as they contemplate "racial reconciliation."
 
 "You know, we're very tolerant; Seattle is a very tolerant city," Jones says. "But that doesn't mean we're reconciled. We hold hands and talk to one another, but that doesn't mean we're friends, one with each other. That's what we hope to accomplish here. We want to pitch our tents together and enter each other's worlds and be reconciled."
-
-Note: This story originally ran in The Seattle Times Nov. 9, 1996.

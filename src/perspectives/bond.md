@@ -1,8 +1,3 @@
-# Remember the man and the hero, not just half the dream
-
-By Julian Bond
-Civil-rights activist and teacher
-
 IN THE 25 YEARS SINCE HIS DEATH, Martin Luther King Jr. has become an American hero, joining a long list of others from the American past.
 
 King's public career lasted from the Montgomery, Ala., Bus Boycott in 1955 to his murder in Memphis, Tenn., in 1968. Today, this self-effacing, quiet man is memorialized by monuments, street names and a national holiday.
@@ -70,5 +65,3 @@ Written on a plaque in the hotel room in which King was killed are these words:
 Today we remember and celebrate half of a man. We have realized only half of his dream.
 
 When he wrote this, Julian Bond was teaching about the civil rights movement at the American University and the University of Virginia. He was active in the civil rights movement of the 1960s and was a student in a philosophy class taught by Martin Luther King Jr., at Morehouse College in Atlanta.
-
-This story originally ran in The Seattle Times, April 4, 1993.

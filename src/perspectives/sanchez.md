@@ -4,8 +4,14 @@ Noted poet and activist Sonia Sanchez visited Seattle in November 1995 to promot
 
 Sanchez had met King once, during a stop on his book tour shortly before he was stabbed in 1957. Though she does not think King or Malcolm X or the Kennedys will "come again," Sanchez says she believes that good leaders will always come as the times demand.
 
-King was a man of peace:  MP3
+## King was a man of peace:
 
-The day King died, phone lines went out:  MP3
+<audio src="./assets/sanchez_peace.mp3" controls>
 
-The assassination was part of the bigger violence:  MP3
+## The day King died, phone lines went out:
+
+<audio src="./assets/sanchez_reax.mp3" controls>
+
+## The assassination was part of the bigger violence:
+
+<audio src="./assets/sanchez_insane.mp3" controls>

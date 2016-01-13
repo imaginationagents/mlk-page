@@ -1,9 +1,3 @@
-# Lessons from fictionalizing King
-
-CHARLES JOHNSON is the Pollock Professor of English at the University of Washington and a winner in 1998 of a prestigious "genius grant" from the MacArthur Foundation. His novel, "Middle Passage," won the National Book Award for 1990 and his short fiction is much anthologized, including on the Internet.
-
-An accomplished screenwriter, book reviewer, and comic artist, Johnson has recently completed a novel called "Dreamer," centering on events in the life of Martin Luther King Jr. Before the novel was published in the spring of 1998, he discussed some of what he learned about King, and what he discovered about himself — and society — in the process.
-
 ## Searching for the hidden Martin Luther King Jr.
 
 I'd like to share with you some of my own questions about the novel I'm writing in hopes that it might shed some light on what I think is the process of writing creative historical fiction.

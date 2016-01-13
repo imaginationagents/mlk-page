@@ -1,8 +1,3 @@
-# Andrew Young reflects on his struggle in the civil-rights movement
-
-By Mary Elizabeth Cronin
-Seattle Times staff reporter
-
 A pillow fight broke out at Memphis' Lorraine Motel on the afternoon the Rev. Dr. Martin Luther King Jr. was assassinated.
 
 King and the Rev. Ralph Abernathy each lifted a pillow and pummeled Andrew Young, who had just returned from a day spent in court. He had been negotiating to remove the federal restraining order temporarily halting a march in support of the Memphis garbage workers' strike.
@@ -44,5 +39,3 @@ The consummate diplomat, Young says Congress cornered Clinton into signing the b
 Young described the Memphis pillow fight as exhilarating after a tense week. They were jovial as they dressed for dinner. Young waited in the parking lot, shadowboxing with James Orange. He heard what sounded like a car backfire and glanced up to see King slumped on the balcony.
 
 An assassin's bullet ended King's dream, but not Young's faith. Last night, as he quoted his family's standard Bible passage, "From those to whom much has been given will much be required," several people murmured "Uh-huh. That's right. Amen."
-
-This story originally ran in The Seattle Times Nov. 13, 1996.

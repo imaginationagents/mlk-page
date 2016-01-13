@@ -1,8 +1,3 @@
-# When King came to town
-
-By Ferdinand de Leon
-Seattle Times staff reporter
-
 THIRTY-TWO YEARS AGO, the Rev. Samuel B. McKinney used his personal connections and cashed in all earned favors to get an old college friend to come to the Northwest for a visit.
 
 McKinney was then new kid on the block, an idealistic young minister who moved from the East Coast three years earlier to take over the leadership of Mount Zion Baptist Church. And he was full of ideas.
@@ -137,4 +132,3 @@ King, who had a standing invitation to revisit the city, was never able to take 
 
 "His schedule never permitted him to return, and I guess he had to go where the heat was the hottest," McKinney said. For the few remaining years of his life before he was assassinated in Memphis in 1968, that heat only got hotter in many parts of the country.
 
-This story originally ran in The Seattle Times Jan. 16, 1994.

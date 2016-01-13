@@ -1,14 +1,3 @@
-# Then and now: Two pastors talk about the struggle for equality
-
-Samuel B. McKinney and Dale Turner
-IN 1958, JUST AS THE CIVIL RIGHTS MOVEMENTin the South was starting to gain national attention, two pastors moved to Seattle to take over new assignments: the Rev. Samuel McKinney at the predominately black Mt. Zion Baptist Church, and the Rev. Dale Turner at the predominately white University Congregational Church.
-
-A year or two later, Turner invited McKinney to speak at University Congregational; that visit was followed by a number of informal meetings between the two and a third pastor, John Hurst Adams (who has since left the area), to talk about ways of addressing race relations from the pulpit.
-
-More than 35 years after they first met, the Revs. Turner and McKinney sat down again in December, 1995, for a conversation with Seattle Times religion reporter Lee Moriwaki.
-
-They talked about the mood of the times then and now, and about the impact of Martin Luther King Jr. — a classmate of McKinney's at Morehouse College. Below is an edited transcript of the discussion.
-
 ## Remembering another era
 
 Moriwaki: What was the racial climate in Seattle back in 1958? Was it good, bad, indifferent?

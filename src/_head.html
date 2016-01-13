@@ -9,15 +9,21 @@
   </head>
   <body>
 
-
       <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
         <nav class="top-nav inner">
           <ul>
-            <li class="logo-container nav-button"><a href="http://www.seattletimes.com" target="_blank"><img class="logo" src="./assets/st-logo.png"></a></li>
-            <li class="nav-button"><a href="./index.html">Home</a></li>
-            <li class="nav-button"><a href="./bio.html">History</a></li>
-            <li class="nav-button"><a href="./archives.html">Perspectives</a></li>
-            <li class="nav-button"><a href="./education.html">Education</a></li>
+            <li class="logo-container nav-button">
+              <a href="http://www.seattletimes.com" target="_blank"><img class="logo" src="./assets/st-logo.png"></a>
+            </li>
+            <% var menu = {
+              "Home": "index.html",
+              "History": "bio.html",
+              "Perspectives": "archives.html",
+              "Education": "education.html"
+            } %>
+            <% for (var key in menu) { %>
+            <li class="nav-button"><a class="<%= menu[key] == file ? "current" : "" %>" href="./<%= menu[key] %>"><%= key %></a></li>
+            <% } %>
           </ul>
         </nav>

@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": "nonexempt-asparagus"
+      "path": "mlk"
     },
     "live": {
       "bucket": "",

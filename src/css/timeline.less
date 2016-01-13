@@ -14,18 +14,21 @@
       .flex(0 0 100px);
       padding-left: 10px;
     }
+  }
 
-    ul.events {
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
-    }
+  ul.events, ul.key {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  ul.key {
+    padding: 8px 26px 16px;
   }
 
   .event {
     clear: left;
     @icon-size: 14px;
-    text-indent: -@icon-size - 2px;
+    text-indent: -@icon-size - 8px;
 
     &::before {
       border-radius: 100%;
@@ -36,7 +39,8 @@
       background: black;
       content: "";
       background-size: @icon-size @icon-size;
-      margin-right: 2px;
+      margin-right: 4px;
+      margin-top: 2px;
     }
 
     &.king::before {
@@ -44,7 +48,7 @@
     }
 
     &.rights::before {
-      background-color: @st-dark-green;
+      background-color: @df-dark-gray;
     }
   }
 

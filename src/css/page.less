@@ -2,12 +2,12 @@ body {
   font-family: @df-sans;
   background: #0A0A0A;
   color: @df-off-white;
-  // letter-spacing: .03em;
-  font-size: 17px;
 }
 
 .logo {
-  height: 30px;
+  width: 200px;
+  max-width: 80%;
+  margin: auto;
 }
 
 .header {
@@ -36,6 +36,10 @@ h1 {
     padding: 0;
     list-style-type: none;
     .align-items(center);
+
+    @media @mobile {
+      .flex-wrap(wrap);
+    }
   }
 
   .nav-button {
@@ -47,6 +51,10 @@ h1 {
     a:hover {
       text-decoration: none;
       color: white;
+    }
+
+    @media @mobile {
+      .flex(0 0 50%);
     }
   }
 
@@ -65,6 +73,10 @@ h1 {
     &::first-child {
       margin-right: 50px;
     }
+
+    @media @mobile {
+      width: 100%;
+    }
   }
 }
 
@@ -73,6 +85,10 @@ h1 {
 
   img {
     width: 100%;
+  }
+
+  @media @mobile {
+    display: block;
   }
 }
 
@@ -95,6 +111,10 @@ main {
   color: @df-charcoal;
   padding: 30px;
 
+  @media @mobile {
+    padding: 10px;
+  }
+
   .inner {
     max-width: 900px;
     margin: auto;
@@ -104,13 +124,17 @@ main {
     float: right;
     max-width: 400px;
     margin-left: 20px;
+
+    @media @mobile {
+      margin-left: 0;
+    }
   }
 
   .caption {
     font-style: italic;
     font-size: 14px;
     color: @df-middle-gray;
-    padding: 5px 0;
+    padding-bottom: 20px;
   }
 }
 

@@ -1,0 +1,26 @@
+<%= t.include("_head.html", { title: "Education" }) %>
+
+<main class="education">
+
+  <div class="inner tab-group">
+
+    <nav class="tab-navigation">
+      <ul>
+        <li><a href="#study-guide">Study Guide</a>
+        <li><a href="#lesson-plan">Lesson Plan</a>
+      </ul>
+    </nav>
+
+    <article class="tab" id="study-guide">
+      <%= markdown.studyGuide %>
+    </article>
+
+    <article class="tab" id="lesson-plan">
+      <%= markdown.lessonPlan %>
+    </article>
+
+  </div>
+
+</main>
+
+<%= t.include("_foot.html") %>

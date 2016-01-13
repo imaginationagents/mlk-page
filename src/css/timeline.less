@@ -24,28 +24,27 @@
 
   .event {
     clear: left;
-    @icon-size: 48px;
+    @icon-size: 14px;
+    text-indent: -@icon-size - 2px;
 
     &::before {
-      vertical-align: text-top;
       border-radius: 100%;
       display: inline-block;
-      float: left;
+      vertical-align: text-top;
       width: @icon-size;
       height: @icon-size;
       background: black;
       content: "";
       background-size: @icon-size @icon-size;
-      margin-right: 18px;
-      margin-bottom: 12px;
+      margin-right: 2px;
     }
 
     &.king::before {
-      background-image: url(assets/king_icon.jpg);
+      background-color: @df-orange;
     }
 
     &.rights::before {
-      background-image: url(assets/protest_icon.jpg);
+      background-color: @st-dark-green;
     }
   }
 

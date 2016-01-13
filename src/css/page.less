@@ -22,18 +22,34 @@ h1 {
   clear: both;
 }
 
-.nav {
+.top-nav {
   max-width: 1200px;
-  margin: auto;
-  .display-flex();
   font-size: 16px;
   line-height: 32px;
+  margin: auto;
+  
+  ul {
+    .display-flex();
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    .align-items(center);
+  }
 
   .nav-button {
     .flex(1);
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    // font-weight: bold;
+
+    a:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  img {
+    display: block;
   }
 }
 

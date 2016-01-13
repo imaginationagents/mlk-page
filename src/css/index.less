@@ -15,6 +15,10 @@ main.index {
     .justify-content(space-between);
     max-width: 900px;
     margin: auto;
+
+    @media @mobile {
+      display: block;
+    }
   }
 
 
@@ -30,6 +34,18 @@ main.index {
 
     .desc {
       padding-bottom: 10px;
+
+      @media @mobile {
+        font-size: 16px;
+      }
+    }
+
+    @media @mobile {
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -40,6 +56,10 @@ main.index {
     padding: 30px;
     font-size: 22px;
 
+    @media @mobile {
+      font-size: 20px;
+    }
+
     .attribution {
       padding-top: 10px;
       font-size: 16px;
@@ -48,6 +68,7 @@ main.index {
   }
 
   .body {
+
     .double {
       .flex(2);
     }

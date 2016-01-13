@@ -19,7 +19,7 @@ var animateScroll = function(element) {
     var t = Date.now();
     var elapsed = t - now;
     var d = elapsed / duration;
-    document.body.scrollTop = document.documentElement.scrollTop = start + distance * d;
+    document.body.scrollTop = document.documentElement.scrollTop = start + distance * ease(d);
     if (elapsed > duration) return;
     raf(frame);
   }

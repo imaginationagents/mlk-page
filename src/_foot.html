@@ -1,8 +1,10 @@
+<div class="copyright">Copyright 2016 The Seattle Times</div>
+
 <div class="footer">
   <div class="nav-button"><a href="http://www.seattletimes.com" target="_blank"><img class="logo" src="./assets/st-logo.png"></a></div>
 </div>
 
-    <script src="app.js" async></script>
+<script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
     <%= t.include("partials/_workHere.html") %>

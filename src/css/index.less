@@ -25,19 +25,33 @@ main.index {
 
   .triplet {
     .flex(0 0 30%);
-    padding: 0 15px;
+    margin: 0 15px;
     font-size: 18px;
     border-bottom: 2px solid @df-border-gray;
 
     img {
       width: 100%;
+      margin-bottom: 3px;
     }
 
     .desc {
-      padding-bottom: 10px;
+      padding-bottom: 20px;
 
       @media @mobile {
         font-size: 16px;
+      }
+    }
+
+    &.no-pic {
+      padding-top: 20px;
+
+      @media @mobile {
+        padding-top: 0;
+      }
+    }
+    &.top {
+      @media @mobile {
+        margin-top: 20px;
       }
     }
 
@@ -69,12 +83,21 @@ main.index {
   }
 
   .body {
+    padding: 30px 0;
 
     .double {
       .flex(2);
+
+      @media @mobile {
+        margin-bottom: 20px;
+      }
     }
     .single {
       .flex(1);
+    }
+    .vbox {
+      .display-flex();
+      .flex-direction(column);
     }
 
     .triplet {

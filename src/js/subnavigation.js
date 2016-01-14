@@ -53,3 +53,4 @@ var slide = function(e) {
 };
 
 $(".jump a").forEach(a => a.addEventListener("click", slide));
+$(".to-top a").forEach(a => a.addEventListener("click", slide));

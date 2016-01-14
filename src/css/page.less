@@ -147,11 +147,46 @@ main {
     font-family: @df-sans;
     padding-bottom: 20px;
   }
+
+  .jump {
+    // text-align: center;
+
+    ul {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: inline-block;
+      border-right: 1px solid black;
+      padding-right: 12px;
+      margin-right: 12px;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+}
+
+.to-top {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+
+  a {
+    color: @df-charcoal;
+  }
 }
 
 .footer .logo {
-  height: 25px;
-  margin: 15px 0 5px 15px;
+  height: 22px;
+  width: auto;
+  margin: 13px 0 3px 13px;
 }
 
 .copyright {

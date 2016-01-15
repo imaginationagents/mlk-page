@@ -52,5 +52,4 @@ var slide = function(e) {
   window.history.pushState(href, href, href);
 };
 
-$(".jump a").forEach(a => a.addEventListener("click", slide));
-$(".to-top a").forEach(a => a.addEventListener("click", slide));
+$(".jump a, .to-top a").forEach(a => a.addEventListener("click", slide));

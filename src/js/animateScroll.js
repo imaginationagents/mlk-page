@@ -9,7 +9,7 @@ var animateScroll = function(element) {
   var start = document.body.scrollTop || document.documentElement.scrollTop || 0;
   var bounds = element.getBoundingClientRect();
   var now = Date.now();
-  var finish = start + bounds.top - 50;
+  var finish = start + bounds.top - 10;
   var distance = finish - start;
   if (Math.abs(distance) < 10) return;
   var duration = 300;

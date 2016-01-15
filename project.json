@@ -5,17 +5,17 @@
       "path": "mlk"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "mlk"
     }
   },
-  "title": "Martin Luther King Jr.",
-  "description": "",
-  "url": "",
+  "title": "Martin Luther King Jr: An extraordinary life",
+  "description": "The story of Dr. King's life, photographs of the times in which he lived, and perspectives from politicians, activists, and ordinary citizens on his tremendous legacy.",
+  "url": "projects.seattletimes.com/mlk/",
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["1IHwyFttyfbG4PtcRxZPNnVNCbNlr7M7wnEWSeLciqw4"],
-  "production": false,
-  "embedded": true
+  "production": true,
+  "embedded": false
 }

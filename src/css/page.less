@@ -48,6 +48,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    position: relative;
 
     a:hover {
       text-decoration: none;
@@ -55,7 +56,7 @@ h1 {
     }
 
     a.current {
-      border-bottom: 2px solid currentColor;
+      color: white;
     }
 
     @media @mobile {
@@ -135,6 +136,16 @@ main {
     margin: auto;
   }
 
+  .old-link {
+    color: white;
+    text-decoration: underline;
+
+    &:hover {
+      color: @df-orange;
+      text-decoration: none;
+    }
+  }
+
   aside {
     float: right;
     max-width: 400px;
@@ -202,13 +213,18 @@ main {
 
   a {
     color: @df-charcoal;
+    text-decoration: none !important;
+
+    &:hover {
+      color: @df-orange;
+    }
   }
 }
 
 .footer .logo {
   height: 22px;
   width: auto;
-  margin: 13px 0 3px 13px;
+  margin: 3px 6px 4px;
 }
 
 .copyright {
@@ -237,6 +253,7 @@ main {
 .dont-miss {
   .display-flex;
   .flex-wrap(wrap);
+  padding-bottom: 30px;
 
   .story {
     .flex(0 0 25%);

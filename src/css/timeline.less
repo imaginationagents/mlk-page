@@ -17,6 +17,10 @@
     h2 {
       .flex(0 0 100px);
       padding-left: 10px;
+
+      @media @mobile {
+        padding-left: 0;
+      }
     }
   }
 
@@ -34,6 +38,10 @@
     clear: left;
     @icon-size: 14px;
     text-indent: -@icon-size - 8px;
+
+    @media @mobile {
+      padding-left: @icon-size * 2;
+    }
 
     &::before {
       border-radius: 100%;

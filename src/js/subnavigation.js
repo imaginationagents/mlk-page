@@ -22,7 +22,9 @@ if (tabGroup) {
     }
   };
 
-  var hash = window.location.hash || "#" + document.querySelector("article.tab").id;
+  var hash = window.location.hash;
+  //guard against empty hashes or hashes outside the tab group
+  if (!hash || !$(hash, tabGroup).length) hash = "#" + document.querySelector("article.tab").id;
   showTab(hash, true);
 
   window.addEventListener("popstate", function(e) {

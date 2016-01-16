@@ -33,20 +33,11 @@ Using King as a prototype, have students brainstorm a list of leadership traits 
 
 Have students, in groups of 3 or 4, identify the top five leadership traits a U.S. president should possess from your brainstorm list. Each group should record these traits on a large piece of paper and provide reasons the president needs them.
 
-Next, have students peruse the Sunday newspaper looking for articles about the Democratic presidential candidates and President Bush. They should read each article looking for the leadership traits of each candidate.
+Next, have students peruse the Sunday newspaper looking for articles about the presidential candidates. They should read each article looking for the leadership traits of each candidate.
 
 Have each group rate the leadership qualities of each candidate. They must come to a consensus on this rating. 1 = Very Poor, 2 = Poor, 3 = Average, 4 = Good and 5 = Excellent.
 
 Each group should "endorse" a candidate and prepare a brief speech regarding the leadership traits of that candidate.
-
-## Then and now
-
-Have students read Jerry Large's commentary "King Day reminds us of successes, but we're not done yet" and take notes. Then, have them answer the following questions:
-
-* What examples does Mr. Large cite that support his theory that our country is different now than it was during King's lifetime?
-* Mr. Large states, "We need this holiday to remind us there is more to be done; that we have inherited some ills from the country that used to be." What are some of those "ills" to which he refers? Do you agree or disagree with Mr. Large and why?
-* Mr. Large asked his son, "Where do you fit in?" How would you answer your parents if they asked you?
-* Write an essay for your class that responds to Mr. Large's commentary. Express your own opinions, thoughts and insights into the question of race, freedom, stereotypes, history and character.
 
 ## Learning from history
 

@@ -6,12 +6,12 @@ Sanchez had met King once, during a stop on his book tour shortly before he was 
 
 ## King was a man of peace:
 
-<audio src="./assets/sanchez_peace.mp3" controls></audio>
+<audio src="./assets/audio/sanchez_peace.mp3" controls></audio>
 
 ## The day King died, phone lines went out:
 
-<audio src="./assets/sanchez_reax.mp3" controls></audio>
+<audio src="./assets/audio/sanchez_reax.mp3" controls></audio>
 
 ## The assassination was part of the bigger violence:
 
-<audio src="./assets/sanchez_insane.mp3" controls></audio>
+<audio src="./assets/audio/sanchez_insane.mp3" controls></audio>

@@ -7,9 +7,9 @@
   </li>
 </ul>
 
-<% 
+<%
 var byYear = {};
-json.MLK2016_timeline.forEach(function(row) {
+json.timeline.forEach(function(row) {
   if (!byYear[row.year]) {
     byYear[row.year] = [];
   }

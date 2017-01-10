@@ -2,11 +2,11 @@
 
 <%
 var questions = {};
-json.MLK2016_quizQuestions.forEach(function(row) {
+json.quizQuestions.forEach(function(row) {
   questions[row.index] = row;
   row.answers = [];
 });
-json.MLK2016_quizAnswers.forEach(function(row) {
+json.quizAnswers.forEach(function(row) {
   questions[row.question].answers.push(row);
 });
 
